@@ -1,5 +1,5 @@
 --CONFIG
-{{ config(materialized='table') }}
+{{ config(materialized='view') }}
 
 --QUERY
 SELECT 
