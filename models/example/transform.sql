@@ -1,5 +1,7 @@
+--CONFIG
 {{ config(materialized='table') }}
 
+--QUERY
 SELECT 
 'PUBLIC_1' AS source, 
 b.customer_id, 
