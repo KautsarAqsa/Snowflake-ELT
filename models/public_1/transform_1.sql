@@ -1,6 +1,6 @@
 --CONFIG
 {{ config(
-    schema='public_1',
+    schema='PUBLIC_1',
     materialized='table') }}
 
 --QUERY
