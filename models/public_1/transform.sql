@@ -1,5 +1,7 @@
 --CONFIG
-{{ config(materialized='table') }}
+{{ config(
+    schema='public_1',
+    materialized='table') }}
 
 --QUERY
 SELECT 
