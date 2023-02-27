@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+# Snowflake ELT
 
-### Using the starter project
+Welcome to my Snowflake ELT project!
+This project is a data pipeline project that transfer data from PostgreSQL database to Snowflake data warehouse then transforms the data using DBT. 
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Prerequisites
+You will need to have the following things:
+
+- Airbyte
+- Apache Airflow
+- DBT (data build tools)
+- PostgreSQL Database
+- Snowflake Account
+
+Here are the important files/directories you can use:
+
+Notebook | Description 
+------------- | -------------
+`airflow-dags` | Contains Airflow DAG script that specifies the ELT pipeline workflow  
+`models` | Contains DBT models, data-transformation flow & logic
+`dbt_run.sh` | Shell script to trigger DBT from Airflow
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
