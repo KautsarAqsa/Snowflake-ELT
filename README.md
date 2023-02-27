@@ -20,4 +20,7 @@ Notebook | Description
 `models` | Contains DBT models, data-transformation flow & logic
 `dbt_run.sh` | Shell script to trigger DBT from Airflow
 
+![image](architecture-images.png)
+
+
 
